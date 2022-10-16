@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube-website1.css">
+    <script src="https://kit.fontawesome.com/023044ed9c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/2997/2997279.png"></a>
+
+            <div class="nav-links" id="navlinks">
+
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="youtube-website1.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <p>About Us</p>
+
+    
+    </section>
+
+    <!--------------------------------------------about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+
+                <h1>we are the world largest university </h1>
+                <p>Lorem, ipsum dolor sit amet 
+                    consectetur adipisicing elit. Minus 
+                    non libero corrupti velit, 
+                    exercitationem vel odit et dolore 
+                    ipsum fugiat. Molestiae, magni 
+                    animi? Cum delectus voluptas vitae 
+                    pariatur nostrum! Blanditiis 
+                    tempora rerum ullam vel doloribus
+                     officiis totam impedit velit quos.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a></a> 
+            </div>
+
+            <div class="about-col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbBxxfoZTlDA2F9Jcf3E5SejGIE1GrjrKsg&usqp=CAU">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <P>The University Study at Adelaide Degree & Courses Work at
+            Adelaide Indigenous Education Learning And Teaching Giving
+             to Adelaide Safer Campus Community</P>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> @2022 - 2025 DeveloperHero| All Rights Reserved</p>
+    </section>
+
+
+
+
+
+
+    <script>
+        /* javascript fot toggle*/
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+    
+
+
+</body>
+</html>

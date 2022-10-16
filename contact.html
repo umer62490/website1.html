@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube-website1.css">
+    <script src="https://kit.fontawesome.com/023044ed9c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/2997/2997279.png"></a>
+
+            <div class="nav-links" id="navlinks">
+
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="youtube-website1.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <p>About Us</p>
+
+    
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24687513.446208984!2d20.92588451721845!3d40.94615951382749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map!5e0!3m2!1sen!2s!4v1665858741878!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Karachi ,Defence, PK</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+92 3243674532</h5>
+                    <p>Monday to Friday , 10AM to 6AM</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>umer62490@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Email Adress" required>
+                <input type="text"name="subject" placeholder="Enter Your Subject" required>
+                <textarea row="8"name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <P>The University Study at Adelaide Degree & Courses Work at
+             Adelaide Indigenous Education Learning And Teaching Giving
+              to Adelaide Safer Campus Community</P>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>@2022 - 2025 DeveloperHero| All Rights Reserved</p>
+    </section>
+
+
+
+
+
+
+    <script>
+        /* javascript fot toggle*/
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+    
+
+
+</body>
+</html>
